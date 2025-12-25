@@ -31,7 +31,7 @@ This toolbox uses "monkey patching" to attach new methods directly to your Polar
 
 Simply import the `toolbox` module at the beginning of your script. The extensions are registered automatically upon import.
 
-```python
+python
 import polars as pl
 import toolbox  # ⚡ This line activates the extensions!
 
@@ -46,3 +46,29 @@ df.null_report()
 
 # 3. Clean column names for better usability
 df = df.clean_names()
+
+🤝 Contributing
+We welcome contributions! This is an open project for the Data Science community. If you have an idea for a new feature, a performance improvement, or a bug fix, please help us make this toolbox better.
+
+To contribute:
+
+Fork the project.
+
+Create your feature branch (git checkout -b feature/AmazingFeature).
+
+Commit your changes (git commit -m 'Add some AmazingFeature').
+
+Push to the branch (git push origin feature/AmazingFeature).
+
+Open a Pull Request.
+
+Note: By contributing, you agree that your code will be distributed under the project's current license.
+
+⚠️ LICENSE & LEGAL NOTICE
+This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0).
+
+You are free to: Share, copy, and modify the code.
+
+Under the following terms: You must give appropriate credit to the author (ZarRomM) and you may NOT use this material for commercial purposes.
+
+Strict Prohibition: The sale, sublicensing, or commercial exploitation of this source code is strictly prohibited without express written permission from the author.
